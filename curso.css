@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+}
+
+.inicio {
+  display: flex;
+  justify-content: center;
+}
+
+.inicio h1 {
+  margin-top: 93px;
+  color: #ff4081;
+  width: 512px;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-right: 88px;
+}
+
+.inicio p {
+  color: #555555;
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 22px;
+  width: 461px;
+}
+
+.inicio img {
+  margin-top: 80px;
+  margin-bottom: 81px;
+  margin-right: 100px;
+}
+
+.aulas {
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7f7;
+  border-bottom: 5px solid #646464;
+}
+
+.aulas h1 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #ff4081;
+  margin-top: 75px;
+}
+
+.aulas p {
+  font-size: 20px;
+  font-weight: 300;
+  width: 501px;
+  margin-right: 188px;
+}
+
+.aulas img {
+  width: 90px;
+  height: 90px;
+  border: 1px solid #000;
+  padding: 85px 186px 73px 186px;
+  margin-left: 150px;
+  margin-right: 76px;
+  margin-bottom: 73px;
+  margin-top: 75px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  height: 207px;
+  background-color: #419488;
+}
+
+#imgfooter {
+  width: 312px;
+  height: 101.43px;
+  align-self: center;
+}
+
+.links,
+.link2 {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.links,
+.link2,
+a {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  justify-items: center;
+  line-height: 23px;
+  margin-top: 5px;
+}
+
+.link2 a {
+  display: block;
+  line-height: 23px;
+  margin-top: 8px;
+  border-radius: 62px;
+  border: 2px solid #fff;
+  padding: 14px 41px 14px 41px;
+  text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+    .inicio,
+    .aulas {
+        display: block;
+    }
+
+    .inicio h1,
+    .inicio p {
+        margin: 0;
+        width: 100%;
+        padding-top: 80px;
+    }
+
+    .inicio {
+        text-align: center;
+    }
+
+    .inicio img {
+        margin-right: 0;
+    }
+
+    .aulas {
+        text-align: center;
+    }
+
+    .aulas h1,
+    .aulas p {
+        margin: 0;
+        width: 100%;
+        padding-bottom: 80px;
+    }
+
+    .inicio h1,
+    .aulas h1 {
+        font-size: 80px;
+    }
+
+    .inicio p,
+    .aulas p {
+        font-size: 30px;
+    }
+
+    .aulas img {
+        margin: 80px 0 80px 0;
+
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    width: 100%;
+  }
+
+  .inicio {
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .inicio img {
+    padding: 0;
+    width: 260px;
+    margin-left: 0px;
+    margin-right: 0;
+  }
+
+  .inicio h1 {
+    margin-bottom: 50px;
+  }
+
+  .aulas img {
+    margin: 0 auto;
+    width: 100px;
+    padding: 60px 60px 60px 60px;
+    margin-top: 100px;
+    max-width: 100%;
+  }
+
+  .aulas {
+    display: block;
+    max-width: 100%;
+    justify-content: center;
+    padding: 00px;
+    text-align: center;
+    border: none;
+  }
+
+  .aulas h1,
+  .inicio h1 {
+    font-size: 50px;
+    width: 100%;
+  }
+
+  .aulas p,
+  .inicio p {
+    margin: 0;
+    max-width: 100%;
+    font-size: 22px;
+    /* padding-bottom: 120px; */
+    
+  }
+
+  .inicio p {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  footer {
+    display: flex;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  #imgfooter {
+    display: none;
+  }
+
+  footer .links a {
+    padding: 6px;
+  }
+
+  footer .link2 a {
+    padding: 10px;
+  }
+}
