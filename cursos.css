@@ -6,15 +6,12 @@ body {
 }
 header {
   background: #2e948a;
-  display: flex;
+  display: flex; 
   justify-content: space-between;
   box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
   width: 100%;
 }
 
-nav > ul {
-  list-style: none;
-}
 nav > ul > li {
   display: inline;
   font-style: normal;
@@ -27,6 +24,10 @@ nav > ul > li > a {
   color: white;
   text-decoration: none;
   padding-right: 15px;
+}
+
+.menu {
+  align-items: flex-start;
 }
 
 .logo {
@@ -152,7 +153,7 @@ a {
   font-weight: 400;
   color: #fff;
   text-decoration: none;
-  display: block;
+  /* display: block; */
   justify-items: center;
   line-height: 23px;
   margin-top: 5px;
