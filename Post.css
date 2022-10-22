@@ -1,0 +1,313 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  background: #2e948a;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+nav > ul {
+  list-style: none;
+}
+nav > ul > li {
+  display: inline;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 0px 0px 47px 0px;
+}
+nav > ul > li > a {
+  color: white;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+.logo {
+  text-align: left;
+  margin: 20px 0px 26px 82px;
+  max-width: 100%;
+}
+
+.menu {
+  align-items: right;
+  align-self: flex-end;
+  transform: translate(-103px, -47px);
+}
+
+.inicial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 712px;
+}
+
+.texto1 {
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.texto2 {
+  color: #ff4081;
+  margin: 111px 0px 0px 12px;
+  font-size: 50px;
+}
+
+.texto3 {
+  color: #9d9d9d;
+  margin: 0%;
+  font-size: 18px;
+}
+.explicacao {
+  text-align: justify;
+  justify-content: center;
+  margin: 64px 444px 111px 444px;
+  display: block;
+}
+
+.explicacao > h2 {
+  color: #419488;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  width: 1032px;
+  height: 465px;
+  left: 204px;
+  top: 381px;
+  background: #c4c4c4;
+  margin: 117px 444px 64px 444px;
+}
+
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.meio {
+  background-color: #f7f7f7;
+  height: 730px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: justify;
+}
+
+.titulos {
+  color: #ff4081;
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+  justify-content: space-evenly;
+  text-align: justify;
+  width: 344px
+  height:37.71px
+  }
+
+.fotopoupando{
+  max-width: 91%;
+}
+
+.fotoinvestimento {
+  max-width: 91%;
+}
+
+.fotoindependencia {
+  max-width: 279px;
+}
+
+.botao {
+  background-color: #ff4081;
+  color: white;
+  border-color: #ff4081;
+  border-radius: 62px;
+  width: 233px;
+  height: 51px;
+  font-size: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  height: 207px;
+  background-color: #419488;
+}
+
+#imgfooter {
+  width: 312px;
+  height: 101.43px;
+  align-self: center;
+}
+
+.links,
+.link2 {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.links,
+.link2 >
+a {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  justify-items: center;
+  line-height: 23px;
+  margin-top: 5px;
+}
+
+.link2 a {
+  display: block;
+  line-height: 23px;
+  margin-top: 8px;
+  border-radius: 62px;
+  border: 2px solid #fff;
+  padding: 14px 41px 14px 41px;
+  text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+  .inicio,
+  .aulas {
+    display: block;
+  }
+
+  .inicio h1,
+  .inicio p {
+    margin: 0;
+    width: 100%;
+    padding-top: 80px;
+  }
+
+  .inicio {
+    text-align: center;
+  }
+
+  .inicio img {
+    margin-right: 0;
+  }
+
+  .aulas {
+    text-align: center;
+  }
+
+  .aulas h1,
+  .aulas p {
+    margin: 0;
+    width: 100%;
+    padding-bottom: 80px;
+  }
+
+  .inicio h1,
+  .aulas h1 {
+    font-size: 80px;
+  }
+
+  .inicio p,
+  .aulas p {
+    font-size: 30px;
+  }
+
+  .aulas img {
+    margin: 80px 0 80px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    width: 100%;
+  }
+
+  .inicio {
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .inicio img {
+    padding: 0;
+    width: 260px;
+    margin-left: 0px;
+    margin-right: 0;
+  }
+
+  .inicio h1 {
+    margin-bottom: 50px;
+  }
+
+  .aulas img {
+    margin: 0 auto;
+    width: 100px;
+    padding: 60px 60px 60px 60px;
+    margin-top: 100px;
+    max-width: 100%;
+  }
+
+  .aulas {
+    display: block;
+    max-width: 100%;
+    justify-content: center;
+    padding: 00px;
+    text-align: center;
+    border: none;
+  }
+
+  .aulas h1,
+  .inicio h1 {
+    font-size: 50px;
+    width: 100%;
+  }
+
+  .aulas p,
+  .inicio p {
+    margin: 0;
+    max-width: 100%;
+    font-size: 22px;
+    /* padding-bottom: 120px; */
+  }
+
+  .inicio p {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  footer {
+    display: flex;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  #imgfooter {
+    display: none;
+  }
+
+  footer .links a {
+    padding: 6px;
+  }
+
+  footer .link2 a {
+    padding: 10px;
+  }
+}
