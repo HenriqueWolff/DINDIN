@@ -53,6 +53,10 @@ nav > ul > li > a {
   width: 20%;
 }
 
+.inicial img {
+  width: 501px;
+}
+
 .titulo {
   font-size: 60px;
 
@@ -70,11 +74,34 @@ button {
 }
 
 .meio {
-  background-color: #f7f7f7;
-  height: 730px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  background-color: #f7f7f7;
+  height: 730px;
+  text-align: center;
+}
+
+.meio h3 {
+  text-align: center;
+  font-size: 25px;
+  width: 304px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding: 0;
+  margin-top: 0;
+}
+
+.meio p {
+  width: 293px;
+  margin-top: 50px;
+  padding: 0;
+  margin-bottom: 60px;
+}
+
+.meio img {
+  width: 238px;
+  height: 238px;
 }
 
 .titulos {
@@ -105,6 +132,11 @@ footer {
   justify-content: space-around;
   height: 207px;
   background-color: #419488;
+  
+}
+
+footer a {
+  color: #fff;
 }
 
 #imgfooter {
@@ -143,54 +175,85 @@ a {
   text-align: center;
 }
 
-@media screen and (max-width: 850px) {
-    .cont,
-    .cont2 {
-        display: block;
-    }
-
-    .cont p,
-    .cont2 p {
-        font-size: 30px;
-    }
-
-    section h1, h2 {
-        font-size: 40px;
-    }
-    
-}
 
 @media screen and (max-width: 480px) {
-  .cont,
-  .cont2 {
+
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  header img {
+    width: 120px;
+    margin-left: -50px;
+  }
+
+header .menu {
+  width: 50px;
+  margin-right: -50px;
+  padding-top: 40px;
+}
+
+.menu ul li a {
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul {
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+.menu ul a {
+  font-size: 10px;
+}
+
+
+.menu {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+  .inicial,
+  .meio {
     display: block;
-    margin: auto;
-    padding: 10px 0px 30px 0px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .topo {
+    width: 100%;
+  }  
+
+  .inicial h2 {
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+  }
+
+  .inicial img,
+  .meio img {
+    position: relative;
+    width: 200px;
     text-align: center;
   }
 
-  section .img img {
-    width: 200px;
-    margin-left: 90px;
-  }
+.meio h3 {
+  width: 100%;
+}
 
-  .img {
-    width: 0;
-  }
-
-  section .titulo h1 {
-    font-size: 60px;
-    margin-left: 0;
-  }
-
-  section .titulo h2 {
-    font-size: 15px;
-    margin-right: 0;
-  }
-
-  .cont p,
-  .cont2 p {
-    font-size: 22px;
+  .meio p {
+    width: 100%;
   }
 
   footer {
@@ -209,28 +272,5 @@ a {
 
   footer .link2 > a {
     padding: 10px;
-  }
-}
-@media only screen and (max-width: 1200px) {
-  body {
-    max-width: 110px;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  body {
-    max-width: 970px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  body {
-    max-width: 750px;
-  }
-}
-
-@media only screen and (max-width: 567px) {
-  body {
-    max-width: 500px;
   }
 }

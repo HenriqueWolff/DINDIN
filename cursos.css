@@ -4,6 +4,42 @@ body {
   font-family: "Ubuntu", sans-serif;
   box-sizing: border-box;
 }
+header {
+  background: #2e948a;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+nav > ul {
+  list-style: none;
+}
+nav > ul > li {
+  display: inline;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 0px 0px 47px 0px;
+}
+nav > ul > li > a {
+  color: white;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+.logo {
+  text-align: left;
+  margin: 20px 0px 26px 82px;
+  max-width: 100%;
+}
+
+.menu {
+  align-items: right;
+  align-self: flex-end;
+  transform: translate(-103px, -47px);
+}
+
 
 .titulo {
   display: flex;
@@ -149,6 +185,49 @@ a {
 }
 
 @media screen and (max-width: 480px) {
+
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  header img {
+    width: 120px;
+    margin-left: -50px;
+  }
+
+header .menu {
+  width: 50px;
+  margin-right: -50px;
+  padding-top: 40px;
+}
+
+.menu ul li a {
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul {
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+.menu ul a {
+  font-size: 10px;
+}
+
+
+.menu {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
   .cont,
   .cont2 {
     display: block;
