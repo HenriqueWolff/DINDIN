@@ -1,0 +1,236 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  width: 100%;
+}
+
+header {
+  background: #2e948a;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+nav > ul {
+  list-style: none;
+}
+nav > ul > li {
+  display: inline;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 0px 0px 47px 0px;
+}
+nav > ul > li > a {
+  color: white;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+.logo {
+  text-align: left;
+  margin: 20px 0px 26px 82px;
+  max-width: 100%;
+}
+
+.menu {
+  align-items: right;
+  align-self: flex-end;
+  transform: translate(-103px, -47px);
+}
+
+.inicial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 712px;
+}
+
+.topo {
+  width: 20%;
+}
+
+.titulo {
+  font-size: 60px;
+
+  color: #ff4081;
+}
+
+button {
+  background-color: white;
+  color: #ff4081;
+  border-color: #ff4081;
+  border-radius: 62px;
+  width: 268px;
+  height: 51px;
+  font-size: 27px;
+}
+
+.meio {
+  background-color: #f7f7f7;
+  height: 730px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.titulos {
+  color: #ff4081;
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.botao {
+  background-color: #ff4081;
+  color: white;
+  border-color: #ff4081;
+  border-radius: 62px;
+  width: 233px;
+  height: 51px;
+  font-size: 20px;
+}
+
+textarea {
+  resize: none;
+  border-radius: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  height: 207px;
+  background-color: #419488;
+}
+
+#imgfooter {
+  width: 312px;
+  height: 101.43px;
+  align-self: center;
+}
+
+.links,
+.link2 {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.links,
+.link2>
+a {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  justify-items: center;
+  line-height: 23px;
+  margin-top: 5px;
+}
+
+.link2 > a {
+  display: block;
+  line-height: 23px;
+  margin-top: 8px;
+  border-radius: 62px;
+  border: 2px solid #fff;
+  padding: 14px 41px 14px 41px;
+  text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+    .cont,
+    .cont2 {
+        display: block;
+    }
+
+    .cont p,
+    .cont2 p {
+        font-size: 30px;
+    }
+
+    section h1, h2 {
+        font-size: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+  .cont,
+  .cont2 {
+    display: block;
+    margin: auto;
+    padding: 10px 0px 30px 0px;
+    text-align: center;
+  }
+
+  section .img img {
+    width: 200px;
+    margin-left: 90px;
+  }
+
+  .img {
+    width: 0;
+  }
+
+  section .titulo h1 {
+    font-size: 60px;
+    margin-left: 0;
+  }
+
+  section .titulo h2 {
+    font-size: 15px;
+    margin-right: 0;
+  }
+
+  .cont p,
+  .cont2 p {
+    font-size: 22px;
+  }
+
+  footer {
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  #imgfooter {
+    display: none;
+  }
+
+  footer .links > a {
+    padding: 6px;
+  }
+
+  footer .link2 > a {
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  body {
+    max-width: 110px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  body {
+    max-width: 970px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    max-width: 750px;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  body {
+    max-width: 500px;
+  }
+}
